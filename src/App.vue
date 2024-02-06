@@ -30,9 +30,9 @@
         :key="position"
       >
         {{ position.lat.toFixed(6) }}, {{ position.lng.toFixed(6) }}
-        <!-- <router-link :to="'/map/' + position.lat + '/' + position.lng">
+        <router-link :to="'/map/' + position.lat + '/' + position.lng">
             {{ position.lat }}, {{ position.lng }}
-          </router-link> -->
+          </router-link>
       </li>
     </ol>
   </div>
